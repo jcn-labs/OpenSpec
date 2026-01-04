@@ -1,4 +1,4 @@
-# @fission-ai/openspec
+# @jcn-labs/openspec
 
 ## 0.17.2
 

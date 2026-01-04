@@ -1,5 +1,5 @@
 {
-  "name": "@fission-ai/openspec",
+  "name": "@jcn-labs/openspec",
   "version": "0.17.2",
   "description": "AI-native system for spec-driven development",
   "keywords": [
@@ -9,10 +9,10 @@
     "ai",
     "development"
   ],
-  "homepage": "https://github.com/Fission-AI/OpenSpec",
+  "homepage": "https://github.com/jcn-labs/OpenSpec",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fission-AI/OpenSpec"
+    "url": "https://github.com/jcn-labs/OpenSpec"
   },
   "license": "MIT",
   "author": "OpenSpec Contributors",

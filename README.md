@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Fission-AI/OpenSpec">
+  <a href="https://github.com/jcn-labs/OpenSpec">
     <picture>
       <source srcset="assets/openspec_pixel_dark.svg" media="(prefers-color-scheme: dark)">
       <source srcset="assets/openspec_pixel_light.svg" media="(prefers-color-scheme: light)">
@@ -10,23 +10,20 @@
 </p>
 <p align="center">Spec-driven development for AI coding assistants.</p>
 <p align="center">
-  <a href="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml/badge.svg" /></a>
-  <a href="https://www.npmjs.com/package/@fission-ai/openspec"><img alt="npm version" src="https://img.shields.io/npm/v/@fission-ai/openspec?style=flat-square" /></a>
-  <a href="https://nodejs.org/"><img alt="node version" src="https://img.shields.io/node/v/@fission-ai/openspec?style=flat-square" /></a>
+  <a href="https://github.com/jcn-labs/OpenSpec/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/jcn-labs/OpenSpec/actions/workflows/ci.yml/badge.svg" /></a>
+  <a href="https://www.npmjs.com/package/@jcn-labs/openspec"><img alt="npm version" src="https://img.shields.io/npm/v/@jcn-labs/openspec?style=flat-square" /></a>
+  <a href="https://nodejs.org/"><img alt="node version" src="https://img.shields.io/node/v/@jcn-labs/openspec?style=flat-square" /></a>
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
   <a href="https://conventionalcommits.org"><img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square" /></a>
-  <a href="https://discord.gg/YctCnvvshC"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?logo=discord&logoColor=white&style=flat-square" /></a>
 </p>
 
 <p align="center">
   <img src="assets/openspec_dashboard.png" alt="OpenSpec dashboard preview" width="90%">
 </p>
 
-<p align="center">
-  Follow <a href="https://x.com/0xTab">@0xTab on X</a> for updates · Join the <a href="https://discord.gg/YctCnvvshC">OpenSpec Discord</a> for help and questions.
-</p>
-
 # OpenSpec
+
+> **Note:** This is a fork of [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) maintained by JCN Labs.
 
 OpenSpec aligns humans and AI coding assistants with spec-driven development so you agree on what to build before any code is written. **No API keys required.**
 
@@ -136,7 +133,7 @@ These tools automatically read workflow instructions from `openspec/AGENTS.md`. 
 #### Step 1: Install the CLI globally
 
 ```bash
-npm install -g @fission-ai/openspec@latest
+npm install -g @jcn-labs/openspec@latest
 ```
 
 Verify installation:
@@ -363,7 +360,7 @@ Run `openspec update` whenever someone switches tools so your agents pick up the
 
 1. **Upgrade the package**
    ```bash
-   npm install -g @fission-ai/openspec@latest
+   npm install -g @jcn-labs/openspec@latest
    ```
 2. **Refresh agent instructions**
    - Run `openspec update` inside each project to regenerate AI guidance and ensure the latest slash commands are active.
